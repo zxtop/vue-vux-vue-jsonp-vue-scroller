@@ -311,7 +311,7 @@ body {
   .marquee{margin:10px;}
   .weui-media-box_appmsg .weui-media-box__hd,.weui-media-box__hd img{width: 102px;height: 92px;}
   .weui-media-box__bd{height: 92px}
-  #app .weui-media-box__hd img{height: auto}
+  #app .weui-media-box__hd img{height: auto !important;}
   .tabbarr{position: fixed;bottom: 0px;left: 0px;}
 }
 </style>
