@@ -62,7 +62,7 @@ ref="myRef"
 
 
       <!-- 底部组件 -->
-         <tabbar>
+         <tabbar slot="bottom" class="tabbarr">
             <tabbar-item>
               <img slot="icon" src="./assets/icon_nav_button.png" alt="" srcset="">
                 <span slot="label">首页</span>
@@ -312,5 +312,6 @@ body {
   .weui-media-box_appmsg .weui-media-box__hd,.weui-media-box__hd img{width: 102px;height: 92px;}
   .weui-media-box__bd{height: 92px}
   #app .weui-media-box__hd img{height: auto}
+  .tabbarr{position: fixed;bottom: 0px;left: 0px;}
 }
 </style>
