@@ -313,5 +313,6 @@ body {
   .weui-media-box__bd{height: 92px}
   #app .weui-media-box__hd img{height: auto}
   .tabbarr{position: fixed;bottom: 0px;left: 0px;}
+  .weui-tabbar{position: fixed}
 }
 </style>
