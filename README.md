@@ -1,4 +1,4 @@
-# 163
+# 使用vue，vux，vue-jsonp，vue-scroller技术，来实现网易数据的上拉加载，下拉刷新
 
 > A Vue.js project
 
@@ -19,3 +19,5 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+* [查看地址-163vue-首页](https://zxtop.github.io/vue-vux-vue-jsonp-vue-scroller/dist/#/)
