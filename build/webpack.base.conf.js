@@ -9,6 +9,12 @@ function resolve (dir) {
 }
 
 
+// const VuxLoader = require('vux-loader');
+// baseWebpackConfig = VuxLoader.merge(baseWebpackConfig, {
+//   plugins: ['vux-ui']
+// })
+
+
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
