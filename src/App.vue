@@ -146,7 +146,7 @@ export default {
 */
 
     // 轮播图数据
-    this.$jsonp('http://3g.163.com/touch/jsonp/sy/recommend/0-9.html').then(data=>{
+    this.$jsonp('https://3g.163.com/touch/jsonp/sy/recommend/0-9.html').then(data=>{
       console.log(data)
       this.swiperList=data.focus.filter(item=>{
         return item.addata===null&&item.picInfo[0]
@@ -161,7 +161,7 @@ export default {
 
 
  // marquee数据
-    this.$jsonp('http://3g.163.com/touch/jsonp/sy/recommend/0-9.html').then(data=>{
+    this.$jsonp('https://3g.163.com/touch/jsonp/sy/recommend/0-9.html').then(data=>{
       // console.log(data)
       this.marqueelist=data.live.filter(item=>{
         return item.addata===null&&item.picInfo[0]
@@ -176,7 +176,7 @@ export default {
 
 
  // 首屏列表数据
-    this.$jsonp('http://3g.163.com/touch/jsonp/sy/recommend/0-9.html').then(data=>{
+    this.$jsonp('https://3g.163.com/touch/jsonp/sy/recommend/0-9.html').then(data=>{
       // console.log(data)
       this.dataList=data.list.filter(item=>{
         return item.addata===null&&item.picInfo[0]
@@ -222,7 +222,7 @@ export default {
     refresh(){
       // console.log("1")
       getRefreshKey();
-      this.$jsonp('http://3g.163.com/touch/jsonp/sy/recommend/0-9.html',{
+      this.$jsonp('https://3g.163.com/touch/jsonp/sy/recommend/0-9.html',{
         miss:"00",
         refresh:keyValue
       }).then(data=>{
@@ -255,7 +255,7 @@ export default {
         return;
       }
       console.log("2")
-      this.$jsonp('http://3g.163.com/touch/jsonp/sy/recommend/'+start+'-'+end+'.html',{
+      this.$jsonp('https://3g.163.com/touch/jsonp/sy/recommend/'+start+'-'+end+'.html',{
         miss:"00",
         refresh:keyValue
       }).then(data=>{
